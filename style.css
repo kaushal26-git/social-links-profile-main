@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+   height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:  hsl(0, 0%, 8%);
+ 
+}
+.container{
+    width: 400px;
+    height: 550px;
+  background-color: hsl(0, 0%, 12%);
+  color: white;
+  text-align: center;
+  border: 2px solid  hsl(0, 0%, 8%);
+  border-radius: 10px;
+
+}
+.img img{
+  border: 2px solid gray;
+  border-radius: 50%;
+  width: 80px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.username p{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+.username p span{
+  color: hsla(75, 94%, 57%, 1.00);
+  
+  
+}
+ .username h4{
+  margin-bottom: 20px;
+ }
+ .btn-container button{
+ height: 40px;
+  width: 300px;
+  margin-top: 10px;
+  border: 2px solid  hsl(0, 0%, 12%);
+  border-radius: 10px;
+  background-color:hsl(0, 0%, 20%);
+  color: white;
+ }
+ .attribution{
+  margin-top: -50px;
+  text-align: center;
+  color: white;
+ }
+ .attribution  p a{
+  text-decoration: none;
+  color: white;
+ }
+ 
